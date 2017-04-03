@@ -13,6 +13,6 @@ $article->title = $title;
 $article->text = $text;
 $article->save();
 if (!empty($_POST['submit'])) {
-    header('Location: /Admin/index.php');
+    header('Location: /App/Admin/index.php');
 }
 include __DIR__ . '/../Templates/adminEdit.php';

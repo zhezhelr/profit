@@ -10,7 +10,7 @@
 <body>
 <div>
     <h2>Отредактировать</h2>
-    <form action="/Admin/add.php" method="post">
+    <form action="/App/Admin/add.php" method="post">
         <fieldset>
             <div>
                 <label>Заголовок новости</label>

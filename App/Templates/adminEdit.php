@@ -17,7 +17,7 @@ $article = \App\Models\Article::findById($_GET['id']);
 <body>
     <div>
         <h2>Редактировать новость</h2>
-        <form action="/Admin/edit.php" method="post">
+        <form action="/App/Admin/edit.php" method="post">
             <fieldset>
                 <div>
                     <label>Заголовок новости</label>
